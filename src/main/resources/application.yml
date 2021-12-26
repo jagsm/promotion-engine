@@ -1,0 +1,26 @@
+app-name: promotion-engine
+server:
+  servlet:
+    contextPath: /promotion-engine/v1.0
+  port: 8080
+  pricemap:
+    A:
+      price: 50
+      promotion: 3
+      promotionPrice: 130
+    B:
+      price: 30
+      promotion: 2
+      promotionPrice: 45
+    C:
+      price: 20
+      promotion: 1
+      promotionPrice: 20
+    D:
+      price: 15
+      promotion: 1
+      promotionPrice: 15
+    CD:
+      price: 30
+      promotion: 1
+      promotionPrice: 30
