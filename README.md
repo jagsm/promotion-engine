@@ -35,4 +35,17 @@ mvn spring-boot:run
 ```
 *While deploying application locally as Spring-Boot, /src/main/resources/application.yml is consumed.*
 
+### Testing
 
+Example:
+
+```
+curl --location --request POST 'http://localhost:8080/demo/v1.0/orders/order' \
+--header 'Content-Type: application/json' \
+--data-raw '{
+    "A":3,
+    "B":5,
+    "C":1,
+    "D":1
+}'
+```
