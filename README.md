@@ -82,7 +82,7 @@ mvn spring-boot:run
 Example:
 
 ```
-curl --location --request POST 'http://localhost:8080/demo/v1.0/orders/order' \
+curl --location --request POST 'http://localhost:8080/promotion-engine/v1.0/orders/order' \
 --header 'Content-Type: application/json' \
 --data-raw '{
     "A":3,
