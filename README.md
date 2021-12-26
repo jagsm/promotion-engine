@@ -23,9 +23,6 @@ To get started you can simply clone this repository using git:
 git@github.com:jagsm/promotion-engine.git
 ```
 
-### External Dependencies
-API is dependent on following external services:
-
 ### Configuration Parameters
 To configure the promotions and prices of the items in application.yml
 
